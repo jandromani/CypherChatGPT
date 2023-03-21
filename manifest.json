@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Cifrador y Descifrador",
+    "version": "1.0",
+    "description": "Extensión de Chrome para cifrar y descifrar mensajes.",
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "permissions": [],
+    "browser_action": {
+      "default_popup": "src/popup.html"
+    }
+  }
+  

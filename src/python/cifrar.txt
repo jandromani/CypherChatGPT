@@ -1,0 +1,41 @@
+AES-128 message encryption and decryption for ChatGPT
+This is a sample project that demonstrates how to encrypt and decrypt messages using the AES-128 algorithm. It includes two Python scripts, one for encrypting messages and another for decrypting them, both using a pre-defined secret key.
+
+The purpose of this project is to overcome the limitations of ChatGPT when sending and receiving messages by translating them into a known-key encryption system (within the script). This allows for communication with the AI without the known limitations, enabling the exchange of large volumes of data, such as scripts to be corrected, and other similar matters.
+Requirements
+
+To run these scripts, you must have Python 3.10 installed, as well as the following Python libraries:
+
+pycryptodome
+To simplify the installation of these libraries, it is recommended to use a conda virtual environment.
+
+Installing Conda If you do not already have Conda installed, you can download and install it from the official Conda website: https://docs.conda.io/projects/conda/en/latest/user-guide/install/
+
+Once you have Conda installed, you can create a new virtual environment to install the necessary libraries. You can do this by running the following command on the command line:
+
+conda create --name encryption python=3.10
+This command will create a new virtual environment called "encryption" with Python 3.10 installed.
+
+Installing Libraries Once you have the "encryption" virtual environment created, you can activate it by running the following command on the command line:
+
+conda activate encryption
+Once the virtual environment is activated, you can install the necessary libraries by running the following command on the command line:
+
+pip install pycryptodome
+Usage Once you have installed the necessary libraries, you can use the two Python scripts to encrypt and decrypt messages using AES-128.
+
+Encrypting Messages To encrypt a message, run the following command on the command line:
+
+python encrypt.py
+This command will prompt the user to enter the message to be encrypted. It will then encrypt the message using AES-128 and the pre-defined secret key, and display the encrypted message in the console.
+
+Decrypting Messages To decrypt an encrypted message, run the following command on the command line:
+
+python decrypt.py
+This command will prompt the user to enter the encrypted message in hexadecimal format to be decrypted. It will then decrypt the message using AES-128 and the pre-defined secret key, and display the decrypted message in the console.
+
+AES-128 is a widely-used encryption algorithm that uses a symmetric key for encryption and decryption of data. It is considered to be one of the most secure encryption algorithms currently available, and is used to protect sensitive information such as financial transactions, government communications, and military secrets.
+
+The importance of AES-128 for the United States is due to its use in securing sensitive government information, including classified information related to national security. The algorithm was developed by two Belgian cryptographers, Vincent Rijmen and Joan Daemen, and was adopted by the U.S. government in 2001 as the standard for securing government communications. It is used in a variety of U.S. government systems and is also widely used in the private sector. The U.S. National Security Agency (NSA) has classified AES-128 for use in top secret information.
+
+Contributions If you wish to contribute to this project, please open an issue or submit a pull request. Thank you for your interest!
